@@ -1,0 +1,34 @@
+[ 
+    { "id": 0,  "name": "Pikachu", "attack1": "eclair", "attack2": "Souplesse", "attack3": "Tonnerre", "attack4": "Fatal-Foudre", "type1": "Electrik", "type2": "", "pv": 530, "level": 100 , 
+    "statAttack": 145, "statDefense": 95, "statSpAttack": 135, "statSpDefense": 115, "statSpeed": 215,"protection": "false", "burned": "false", "thumbnail": "https://img.pokemondb.net/sprites/sword-shield/normal/pikachu.png", "imageFront":"https://img.pokemondb.net/sprites/black-white/anim/normal/pikachu.gif" , "imageBack":"https://img.pokemondb.net/sprites/black-white/anim/back-normal/pikachu.gif" },
+   
+    { "id": 1,  "name": "Dracaufeu", "attack1":  "placeholder", "attack2":  "placeholder", "attack3":  "placeholder", "attack4":  "placeholder", "type1":  "Normal", "type2": "", "pv": 100, "level": 100 , 
+    "statAttack": 100, "statDefense": 100, "statSpAttack": 100, "statSpDefense": 100, "statSpeed": 100,"protection": "false", "burned": "false", "thumbnail": "https://img.pokemondb.net/sprites/sword-shield/normal/gyarados.png", "imageFront": "https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif", "imageBack": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gyarados.gif"},
+   
+    { "id": 2,  "name": "Florizarre", "attack1":  "placeholder", "attack2":  "placeholder", "attack3":  "placeholder", "attack4":  "placeholder", "type1":  "Normal", "type2": "", "pv": 100, "level": 100 , 
+    "statAttack": 100, "statDefense": 100, "statSpAttack": 100, "statSpDefense": 100, "statSpeed": 100,"protection": "false", "burned": "false", "thumbnail": "https://img.pokemondb.net/sprites/sword-shield/normal/gyarados.png", "imageFront": "https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif", "imageBack": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gyarados.gif"},
+   
+    { "id": 3,  "name": "Tortank", "attack1":  "placeholder", "attack2":  "placeholder", "attack3":  "placeholder", "attack4":  "placeholder", "type1":  "Normal", "type2": "", "pv": 100, "level": 100 , 
+    "statAttack": 100, "statDefense": 100, "statSpAttack": 100, "statSpDefense": 100, "statSpeed": 100,"protection": "false", "burned": "false", "thumbnail": "https://img.pokemondb.net/sprites/sword-shield/normal/gyarados.png", "imageFront": "https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif", "imageBack": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gyarados.gif"},
+   
+    { "id": 4,  "name": "Nosferalto", "attack1":  "placeholder", "attack2":  "placeholder", "attack3":  "placeholder", "attack4":  "placeholder", "type1":  "Normal", "type2": "", "pv": 100, "level": 100 , 
+    "statAttack": 100, "statDefense": 100, "statSpAttack": 100, "statSpDefense": 100, "statSpeed": 100,"protection": "false", "burned": "false", "thumbnail": "https://img.pokemondb.net/sprites/sword-shield/normal/gyarados.png", "imageFront": "https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif", "imageBack": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gyarados.gif"},
+   
+    { "id": 5,  "name": "Alakazam", "attack1":  "placeholder", "attack2":  "placeholder", "attack3":  "placeholder", "attack4":  "placeholder", "type1":  "Normal", "type2": "", "pv": 100, "level": 100 , 
+    "statAttack": 100, "statDefense": 100, "statSpAttack": 100, "statSpDefense": 100, "statSpeed": 100,"protection": "false", "burned": "false", "thumbnail": "https://img.pokemondb.net/sprites/sword-shield/normal/gyarados.png", "imageFront": "https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif", "imageBack": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gyarados.gif"},
+   
+    { "id": 6,  "name": "Ectoplasma", "attack1":  "placeholder", "attack2":  "placeholder", "attack3":  "placeholder", "attack4":  "placeholder", "type1":  "Normal", "type2": "", "pv": 100, "level": 100 , 
+    "statAttack": 100, "statDefense": 100, "statSpAttack": 100, "statSpDefense": 100, "statSpeed": 100,"protection": "false", "burned": "false", "thumbnail": "https://img.pokemondb.net/sprites/sword-shield/normal/gyarados.png", "imageFront": "https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif", "imageBack": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gyarados.gif"},
+    
+    { "id": 7,  "name": "Léviator", "attack1":  "placeholder", "attack2":  "placeholder", "attack3":  "placeholder", "attack4":  "placeholder", "type1":  "Normal", "type2": "", "pv": 100, "level": 100 , 
+    "statAttack": 100, "statDefense": 100, "statSpAttack": 100, "statSpDefense": 100, "statSpeed": 100,"protection": "false", "burned": "false", "thumbnail": "https://img.pokemondb.net/sprites/sword-shield/normal/gyarados.png", "imageFront": "https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif", "imageBack": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gyarados.gif"},
+    
+    { "id": 8,  "name": "Mackogneur", "attack1":  "placeholder", "attack2":  "placeholder", "attack3":  "placeholder", "attack4":  "placeholder", "type1":  "Normal", "type2": "", "pv": 100, "level": 100 , 
+    "statAttack": 100, "statDefense": 100, "statSpAttack": 100, "statSpDefense": 100, "statSpeed": 100,"protection": "false", "burned": "false", "thumbnail": "https://img.pokemondb.net/sprites/sword-shield/normal/gyarados.png", "imageFront": "https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif", "imageBack": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gyarados.gif"},
+    
+    { "id": 9,  "name": "Papillusion", "attack1":  "placeholder", "attack2":  "placeholder", "attack3":  "placeholder", "attack4":  "placeholder", "type1":  "Normal", "type2": "", "pv": 100, "level": 100 , 
+    "statAttack": 100, "statDefense": 100, "statSpAttack": 100, "statSpDefense": 100, "statSpeed": 100,"protection": "false", "burned": "false", "thumbnail": "https://img.pokemondb.net/sprites/sword-shield/normal/gyarados.png", "imageFront": "https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif", "imageBack": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gyarados.gif"},
+    
+    { "id": 10, "name": "Dracolosse", "attack1":  "placeholder", "attack2":  "placeholder", "attack3":  "placeholder", "attack4":  "placeholder", "type1":  "Normal", "type2": "", "pv": 100, "level": 100 , 
+    "statAttack": 100, "statDefense": 100, "statSpAttack": 100, "statSpDefense": 100, "statSpeed": 100,"protection": "false", "burned": "false", "thumbnail": "https://img.pokemondb.net/sprites/sword-shield/normal/gyarados.png", "imageFront": "https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif", "imageBack": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gyarados.gif"}
+]
