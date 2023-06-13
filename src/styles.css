@@ -1,1 +1,337 @@
 /* You can add global styles to this file, and also import other style files */
+#mainScreen {
+    background-image: url('https://64.media.tumblr.com/2fceabe2f47781fe88c1d9ca04a8908a/tumblr_pckickcFRz1ulammxo1_1280.gif');
+    background-size: cover;
+    object-fit: contain;
+  
+    width: 800px;
+    height: 400px;
+    margin: 0px;
+    padding-top: 20px;
+  }
+  
+  #contents {
+    overflow: auto;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+  }
+  
+  .center-div {
+    margin: 0 auto;
+    padding: 15px;
+    background-color: red;
+  }
+  
+  #joueurActuelSidebar {
+    width: 20%;
+    height: 400px;
+    text-align: center;
+    margin-right: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    float: left;
+  }
+  
+  #joueurAdverseSidebar {
+    width: 20%;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    float: right;
+  }
+  
+  #boxJoueurAdverse {
+    width: 100%;
+    display: grid;
+  }
+  
+  #boxJoueurActuel {
+    width: 100%;
+    display: grid;
+  }
+  
+  .thumbnail {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  button {
+    /* width: 411px; */
+    width: 271px;
+    height: 50px;
+    margin: 2px;
+    border: 1px solid black;
+  }
+  
+  #attaque {
+    margin-top: 10px;
+    width: 830px;
+  }
+  
+  #utiliserObjet, #changerPokemon {
+    width: 411px;
+  }
+  
+  #attaque1, #attaque2, #attaque3, #attaque4{
+    width: 411px;
+  
+  }
+  
+  #cancelPokemon, #cancelObjet {
+    margin-top: 10px;
+    width: 830px;
+  }
+  
+  #cancelAttaque {
+    width: 830px;
+  }
+  
+  .attaqueBouton {
+    margin-top: 10px;
+  }
+  
+  .menuBouton {
+    margin-top: 10px;
+  }
+  
+  #joueurAdversePokemon {
+    grid-area: pokemonAdverseName;
+  }
+  
+  #joueurAdverseBlocTexte {
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    border-radius: 10%;
+    border: 2px solid black;
+    font-weight: 700;
+    text-align: center;
+    margin-right: -100px;
+  }
+  
+  #joueurActuelBlocTexte {
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10%;
+    border: 2px solid black;
+    margin-left: -20px;
+    margin-top: -10px;
+    justify-content: left;
+  }
+  
+  progress {
+    width: 120px;
+  }
+  
+  #joueurAdversePV {
+    grid-area: pokemonAdversePV;
+  }
+  
+  #joueurAdverseImage {
+    grid-area: pokemonAdverseImage;
+    height: 15%;
+    max-height: 100px;
+    position: absolute;
+    left: 500px;
+    top: 130px;
+    object-fit: contain;
+  }
+  
+  #joueurAdverse {
+    display: grid;
+    justify-content: right;
+    padding-top: 50px;
+    padding-right: 120px;
+    grid-template-areas:
+      ' pokemonAdverseImage pokemonAdverseName '
+      ' pokemonAdverseImage   pokemonAdversePV ';
+  }
+  
+  #joueurActuel {
+    display: grid;
+    justify-content: left;
+    margin-top: 90px;
+  
+    grid-template-areas:
+      ' pokemonActuelImage pokemonActuelName '
+      ' pokemonActuelImage pokemonActuelPV     ';
+  }
+  
+  #joueurActuelPokemon {
+    grid-area: pokemonActuelName;
+  }
+  
+  #joueurActuelPV {
+    grid-area: pokemonActuelPV;
+  }
+  
+  #joueurActuelImage {
+    grid-area: pokemonActuelImage;
+    height: 15%;
+    margin-left: -30px;
+    object-fit: contain;
+  
+    position: absolute;
+    left: 250px;
+    top: 250px;
+  }
+  
+  /* Tooltip container */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(99, 99, 99);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+  
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* Tooltip arrow */
+  .tooltip .tooltiptext::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* couleurs des boutons d'attaque correspondant dynamiquement à leur élément*/
+  
+  .Electrik {
+    background-color: #ffcc33;
+  }
+  
+  .Normal {
+    background-color: #aaaa99;
+  }
+  
+  .Plante {
+    background-color: #77cc55;
+  }
+  
+  .Feu {
+    background-color: #ff4422;
+  }
+  
+  .Eau {
+    background-color: #3399ff;
+  }
+  
+  .Terre {
+    background-color: #f4e7da;
+  }
+  
+  .Roche {
+    background-color: #bbaa66;
+  }
+  
+  .Fee {
+    background-color: #ee99ee;
+  }
+  
+  .Poison {
+    background-color: #aa5599;
+  }
+  
+  .Insecte {
+    background-color: #aabb22;
+  }
+  
+  .Dragon {
+    background-color: #7766ee;
+  }
+  
+  .Psy {
+    background-color: #ff5599;
+  }
+  
+  .Vol {
+    background-color: #8899ff;
+  }
+  
+  .Combat {
+    background-color: #bb5544;
+  }
+  
+  .Spectre {
+    background-color: #6666bb;
+  }
+  
+  .Acier {
+    background-color: #aaaabb;
+  }
+  
+  .Ténèbres {
+    background-color: #775544;
+  }
+  
+  .Sol {
+    background-color: #ddbb55;
+  }
+  
+  .Glace {
+    background-color: #66ccff;
+  }
+  
+  progress {
+    height: 7px;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    border-radius: 14px;
+    /* background-color: rgb(36, 36, 36); */
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: rgb(73, 73, 73);
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: green;
+  }
+  
+  /* .colored { */
+  /* background-color: red; */
+  /* } */
+  
+  .progress-red::-webkit-progress-value {
+    background-color: rgb(209, 0, 0);
+  }
+  

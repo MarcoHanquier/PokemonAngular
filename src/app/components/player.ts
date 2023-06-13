@@ -2,33 +2,42 @@ import { Ipokemons } from '../services/pokemons/pokemon';
 import { PokemonsService } from '../services/pokemons/pokemons.service';
 
 export class Player {
+  id: number;
   name: string;
   pokemonNumber: number;
-  pokemon1: number;
-  pokemon2: number;
-  pokemon3: number;
-  pokemon4: number;
-  pokemon5: number;
-  pokemon6: number;
+  pokemonActuel: Ipokemons;
+  pokemon1: Ipokemons;
+  pokemon2: Ipokemons;
+  pokemon3: Ipokemons;
+  pokemon4: Ipokemons;
+  pokemon5: Ipokemons;
+  pokemon6: Ipokemons;
+  pokemonChangeNeeded: false;
 
   constructor(
+    _id: number,
     _name: string,
     _pokemonNumber: number,
-    _pokemon1: number,
-    _pokemon2: number,
-    _pokemon3: number,
-    _pokemon4: number,
-    _pokemon5: number,
-    _pokemon6: number
+    _pokemonActuel: Ipokemons,
+    _pokemon1: Ipokemons,
+    _pokemon2: Ipokemons,
+    _pokemon3: Ipokemons,
+    _pokemon4: Ipokemons,
+    _pokemon5: Ipokemons,
+    _pokemon6: Ipokemons,
+    _pokemonChangeNeeded: false
   ) {
+    this.id = _id;
     this.name = _name;
     this.pokemonNumber = _pokemonNumber;
+    this.pokemonActuel = _pokemonActuel;
     this.pokemon1 = _pokemon1;
     this.pokemon2 = _pokemon2;
     this.pokemon3 = _pokemon3;
     this.pokemon4 = _pokemon4;
     this.pokemon5 = _pokemon5;
     this.pokemon6 = _pokemon6;
+    this.pokemonChangeNeeded = _pokemonChangeNeeded;
   }
 
   // getName(){

@@ -1,13 +1,14 @@
+
 <div>
-    <button (click)="attack1()">Attaque 1</button>
-    <button (click)="attack2()">Attaque 2</button>
-</div>
-<div>
-    <button (click)="attack3()">Attaque 3</button>
-    <button (click)="attack4()">Attaque 4</button>
-</div>
-<div>
-    <button [routerLink]="['/menu']">Annuler</button>
+  <div class="attaqueBouton">
+    <button id="attaque1" class="tooltip">Attaque 1</button>
+    <button id="attaque2" class="tooltip">Attaque 2</button>
+  </div>
+  <div>
+    <button id="attaque3" class="tooltip">Attaque 3</button>
+    <button id="attaque4" class="tooltip">Attaque 4</button>
+  </div>
+    <button id="cancelAttaque" [routerLink]="['/menu']">Annuler</button>
 </div>
 
 

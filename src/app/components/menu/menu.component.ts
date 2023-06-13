@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
+  boutonAttaque = document.getElementById('attaque');
+  boutonObjet = document.getElementById('utiliserObjet');
+  boutonPokemon = document.getElementById('changerPokemon');
+  boutonMenu = document.getElementById('menuBouton');
+  
   constructor() { }
 
   ngOnInit(): void {

@@ -1,23 +1,38 @@
+import { Attack } from "src/app/components/attack";
+import { AttacksService } from "../attacks/attacks.service";
+
 export interface Ipokemons {
 
     ID: number;
     name: string;
-    attack1: string;
-    attack2: string;
-    attack3: string;
-    attack4: string;
-    type1: string;
-    type2: string;
-    level: number;
     pv: number;
+    pvMax: number;
+    element1: string;
+    element2: string;
+    attack1: Attack;
+    attack2: Attack;
+    attack3: Attack;
+    attack4: Attack;
+    protection: boolean;
+    burned: boolean;
+    poisoned: boolean;
+    sleep: boolean;
+    paralysed: boolean;
+    level: number;
     statAttack: number;
     statDefense: number;
     statSpAttack: number;
     statSpDefense: number;
     statSpeed: number;
-    protection: boolean;
-    burned: boolean;
+    imageFront: string;
+    imageBack: string;
+    thumbnail: string;
+
+
+
+
   }
+
 
 //   const mewtwo: Ipokemons = {
 //     ID: 1,

@@ -1,8 +1,22 @@
+<!-- <div id="controls">
+  <div class="menuBouton">
+    <button id="attaque" class="hidden visible">Attaquer</button>
+  </div>
+
+  <div id="menuBouton" class="hidden visible">
+    <button id="utiliserObjet">Objet</button>
+    <button id="changerPokemon">Pokemon</button>
+  </div>
+</div> -->
 
 <router-outlet>
-    <button [routerLink]="['/attack']">Attaquer</button>
-    <button [routerLink]="['/object']">Objet</button>
-    <button [routerLink]="['/pokemon']">Pokemon</button>
+  <div id="menuBouton">
+    <div>
+      <button id="attaque" [routerLink]="['/attack']">Attaquer</button>
+    </div>
+    <button id="utiliserObjet" [routerLink]="['/object']">Objet</button>
+    <button id="changerPokemon" [routerLink]="['/pokemon']">Pokemon</button>
+  </div>
 </router-outlet>
 
 <!-- 

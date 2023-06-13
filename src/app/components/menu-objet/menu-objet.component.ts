@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu-objet.component.css']
 })
 export class MenuObjetComponent implements OnInit {
+  
+boutonPotion = document.getElementById('potion');
+boutonPotionSuper = document.getElementById('potionSuper');
+boutonPotionMax = document.getElementById('potionMax');
+boutonAnnulerObjet = document.getElementById('cancelObjet');
 
   constructor() { }
 
